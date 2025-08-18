@@ -21,13 +21,13 @@ def jugar():
         print(f"La computadora eligió: {computadora}")
         
         if jugador == computadora:
-            print("¡Empate bro! 🤝")
-            print("Pero pa mis cjn dale otra vez porq empatado no vamos a quedar")
+            print("Empate cachon 🤝")
+            print("Pero pa mis cjn dale otra vez porque empatados no vamos a quedar")
         elif (jugador == "piedra" and computadora == "tijera") or \
              (jugador == "papel" and computadora == "piedra") or \
              (jugador == "tijera" and computadora == "papel"):
-            print(" UN DUROO BROOO 💪")
+            print("GANASTE UN DUROO BROOO 💪\nYo te mamo la bola derecha sin tocarte la izquierda\notra khe?")
         else:
-            print("Perdiste por gay JAJAJJAJJAJA BOBOOOO\nQuedaste picao velda? dale otra vez")
+            print("Perdiste 😩\npor gay JAJAJJAJJAJA BOBOOOO\nQuedaste picao velda? dale otra vez")
             
 jugar()
