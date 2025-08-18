@@ -7,7 +7,7 @@ def jugar():
     print("---------Hablame menol, llegate vamo a jugar fuegooo----------")
     
     while True:
-        jugador = input("Elige piedra, papel o tijera (o sino te da la fokin gana de jugar pone 'ño bb' y te sales de esta monda): ").lower()
+        jugador = input("Elige piedra, papel o tijera:\n(o sino te da la fokin gana de jugar pone 'ño bb' y te sales de esta monda): ").lower()
         
         if jugador == "ño bb":
             print("Nos pillamnos bro, te me cuidas el dulce.")
@@ -28,7 +28,6 @@ def jugar():
              (jugador == "tijera" and computadora == "papel"):
             print(" UN DUROO BROOO 💪")
         else:
-            print("¡Perdiste! por gay")
-        
-        print("Dale otra fuego? (quede picado)")
+            print("¡Perdiste! por gay\nQuedaste picao velda? dale otra vez")
+            
 jugar()
