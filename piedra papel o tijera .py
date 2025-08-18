@@ -28,6 +28,6 @@ def jugar():
              (jugador == "tijera" and computadora == "papel"):
             print(" UN DUROO BROOO 💪")
         else:
-            print("¡Perdiste! por gay\nQuedaste picao velda? dale otra vez")
+            print("Perdiste por gay JAJAJJAJJAJA BOBOOOO\nQuedaste picao velda? dale otra vez")
             
 jugar()
