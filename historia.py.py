@@ -65,7 +65,7 @@ if opcion1 == "si":
                     print("Efectivamente, al día siguiente se escucha un sonido... ¡es un helicóptero de rescate!")
 
                     print("El helicóptero está cerca. Es tu oportunidad")
-                    opcion6 = input("¿Hacer una señal de humo o gritar, silbar, hacer ruido?: ")
+                    opcion6 = input("¿Hacer una señal de humo(1) o gritar(2), silbar(3), hacer ruido?(4): ")
 
                     if opcion6 == "1":
                         print("Con los materiales que recogiste, logras hacer una gran señal de humo. El helicóptero te ve y logras sobrevivir.")
