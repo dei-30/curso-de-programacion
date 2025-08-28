@@ -35,7 +35,6 @@ class personaje:
             enemigo.morir()
 
 class guerrero(personaje):
-    # La espada ahora tiene un valor fijo de 10
     def __init__(self, nombre, fuerza, inteligencia, defensa, vida):
         super().__init__(nombre, fuerza, inteligencia, defensa, vida)
         self.espada = 10
@@ -56,13 +55,10 @@ class mago(personaje):
         return max(0, self.inteligencia * self.libro - enemigo.defensa)
 
 
-# Creamos las instancias de las clases
 mi_personaje = personaje("el_mata_gays", 20, 15, 10, 100)
-# Ya no necesitamos pasar el argumento de la espada
-mi_guerrero = guerrero("Goku", 15, 10, 8, 100)
-mi_mago = mago("Maguito", 10, 20, 5, 100, 12)
+mi_guerrero = guerrero("Goku_super_sayayin_4", 15, 10, 8, 100)
+mi_mago = mago("netol", 10, 20, 5, 100, 12)
 
-# Ahora, el guerrero tendrá la espada con daño 10 por defecto
 print("--- Atributos de Guerrero ---")
 mi_personaje.atributos()
 print("\n--- Atributos de Guerrero ---")
@@ -73,14 +69,14 @@ mi_mago.atributos()
 
 print("\n----EMPIENZA EL COMBATE----\n")
 
-goku = guerrero("Goku", 15, 10, 8, 100)
-maguito = mago("Maguito", 10, 20, 5, 100, 12)
+goku = guerrero("Goku_super_sayayin_4", 15, 10, 8, 100)
+netol = mago("netol", 10, 20, 5, 100, 12)
 el_mata_gays = personaje("el_mata_gays", 20, 15, 10, 100)
-el_mata_gays.atacar(maguito)
+el_mata_gays.atacar(netol)
 goku.atacar(el_mata_gays)
-maguito.atacar(goku)
+netol.atacar(goku)
 goku.atributos()
-maguito.atributos()
+netol.atributos()
 el_mata_gays.atributos()
 
 print("\n----FIN DEL COMBATE----")
