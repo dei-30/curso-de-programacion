@@ -80,4 +80,5 @@ netol.atributos()
 el_mata_gays.atributos()
 
 print("\n----FIN DEL COMBATE----")
-print("----HA GANADO EL MAGO----\n")
+print("----HA GANADO EL NETOL----\n")
+
